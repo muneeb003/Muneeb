@@ -22,7 +22,12 @@ function TopSection({ about }) {
         {about?.title}
       </p>
       <div data-aos="zoom-in" data-aos-delay="400">
-        <MemojiTiltCorrected className="shadow-lg rounded-full p-2 hover:scale-110 transform transition duration-500" />
+        <MemojiTiltCorrected
+          size={220}
+          maxTilt={30}
+          tiltFactorX={0.8}
+          tiltFactorY={1.2}
+        />
       </div>
       <div
         className="flex flex-col sm:flex-row gap-4 mt-6"

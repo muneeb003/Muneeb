@@ -63,7 +63,7 @@ function Home() {
   return (
     <div>
       {/* Top Section */}
-
+      <Navbar />
       <TopSection about={about} />
 
       {/* About Section */}
